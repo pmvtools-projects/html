@@ -80,7 +80,7 @@
 
 /* Layout helpers
 ----------------------------------*/
-.slick-slide h4{color: #008781!important;}
+.slick-slide h4{color: #008781!important; font-size: 16px;}
 
 
 .ui-helper-hidden {
@@ -990,19 +990,19 @@ body {
 }
 
 .f-topbar-fixed.shrink .contain-to-grid {
-  height: 60px;
+  height: 128px;
 }
 .f-topbar-fixed.shrink .top-bar {
-  height: 60px;
-  line-height: 60px;
+  height: 128px;
+  line-height: 128px;
   -moz-transition-duration: 0.2s;
   -o-transition-duration: 0.2s;
   -webkit-transition-duration: 0.2s;
   transition-duration: 0.2s;
 }
 .f-topbar-fixed.shrink .top-bar .top-bar-section li:not(.has-form) a:not(.button) {
-  height: 60px;
-  line-height: 60px;
+  height: 128px;
+  line-height: 128px;
   -moz-transition-property: all;
   -o-transition-property: all;
   -webkit-transition-property: all;
@@ -1024,7 +1024,7 @@ body {
   line-height: 60px;
 }
 .f-topbar-fixed.shrink .top-bar .title-area img, .f-topbar-fixed.shrink .top-bar .title-area li img, .f-topbar-fixed.shrink .top-bar .title-area a img {
-  width: 70%;
+  width: 100%;
 }
 
 .contain-to-grid.fullwidth .top-bar {
